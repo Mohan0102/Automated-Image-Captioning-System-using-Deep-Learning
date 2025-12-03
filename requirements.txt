@@ -4,3 +4,4 @@ tensorflow  # or torch
 jupyter
 matplotlib
 pillow
+Deep Learning
