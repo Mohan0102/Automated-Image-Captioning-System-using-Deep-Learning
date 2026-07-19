@@ -1,0 +1,50 @@
+:root {
+  --bg: #141110;
+  --bg-vignette: #0c0a09;
+  --panel: #1f1a17;
+  --panel-edge: #2c2521;
+  --safelight: #c1432b;
+  --safelight-bright: #e8632f;
+  --amber: #e8963c;
+  --paper: #ede3d0;
+  --paper-dim: #ddd0b6;
+  --ink: #2b2521;
+  --ink-soft: #55493f;
+  --muted: #8a8078;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 0%, var(--bg) 0%, var(--bg-vignette) 100%);
+  color: var(--paper);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

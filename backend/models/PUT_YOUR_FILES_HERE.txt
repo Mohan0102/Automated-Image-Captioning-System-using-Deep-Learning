@@ -1,0 +1,6 @@
+Place your two files from the notebook directly in this folder:
+
+  backend/models/model.h5
+  backend/models/tokenizer.pkl
+
+The server reads them from here on startup.

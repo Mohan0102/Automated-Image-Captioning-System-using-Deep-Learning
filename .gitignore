@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.backend/venv/
+backend/venv/
+*.sqlite3
+*.db
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+npm-bootstrap/
+
+# Vite & editor
+dist/
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Visual Studio
+.vscode/
+
+# Misc
+*.swp
+*.swo
+Thumbs.db
