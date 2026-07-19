@@ -1,4 +1,4 @@
-# Print / Caption
+# Automated-Image-Captioning-System-using-Deep-Learning
 
 A backend + frontend around your Flickr8k VGG16 + LSTM image captioning model.
 
