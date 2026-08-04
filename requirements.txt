@@ -1,0 +1,6 @@
+numpy
+pandas
+tensorflow  # or torch
+jupyter
+matplotlib
+pillow
